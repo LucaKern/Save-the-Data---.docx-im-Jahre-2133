@@ -1,0 +1,5 @@
+"scripts": {
+    "start": "react-scripts start",
+    "start-flask": "cd ../backend && python app.py",
+    "dev": "concurrently \"npm run start\" \"npm run start-flask\""
+},

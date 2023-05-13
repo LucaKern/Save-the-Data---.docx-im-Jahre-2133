@@ -1,0 +1,6 @@
+.DS_Store
+DATASET
+test_docx.py
+node_modules
+frontend/node_modules/
+backend/converted_files/
