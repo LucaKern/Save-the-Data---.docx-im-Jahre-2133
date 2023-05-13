@@ -10,7 +10,7 @@ This simple Application allows users to select a Docx file to be analyzed. The a
 
 The solution consists of three parts:
 
-- Front-End (React)
+- Front-End (React, Electron)
 
 - API (Python)
 
@@ -19,7 +19,7 @@ The solution consists of three parts:
 
  
 
-![Docx Date Converter](https://github.com/LucaKern/Hackdays-BE-Safe-the-Data/blob/main/Screenshot_20230512_at_18.01.23.png.)
+![Docx Date Converter](https://github.com/LucaKern/Save-the-Data---.docx-im-Jahre-2133/blob/main/frontend/example_image.png)
 
 
  
