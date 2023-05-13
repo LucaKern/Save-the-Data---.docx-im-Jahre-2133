@@ -51,51 +51,70 @@ This challenge aims to develop software that performs an analysis of .docx docum
 
 To run the software, you need to have both Python (for the Flask backend) and Node.js (for the React frontend) installed on your machine.
 
+## Setup
 
- 
+1. Clone this repository:
 
-1. First, navigate to the Flask app\'s directory and activate your virtual environment (if you\'re using one). Then, run the Flask app:
+    ```bash
+    git clone git@github.com:LucaKern/Save-the-Data---.docx-im-Jahre-2133.git
+    ```
 
+2. Navigate to the project directory:
 
- 
+    ```bash
+    cd Save-the-Data---.docx-im-Jahre-2133
+    ```
 
-```
+3. Install the Node.js dependencies:
 
-cd /path/to/flask
+    ```bash
+    npm install
+    ```
 
-python app.py
+4. Navigate to the backend directory:
 
-```
+    ```bash
+    cd ./backend
+    ```
 
+5. Create a virtual environment:
 
- 
+    ```bash
+    python -m venv venv
+    ```
 
-2. In a new terminal window, navigate to the React app\'s directory and start the React app:
+6. Activate the virtual environment:
 
+    - On Windows:
 
- 
+        ```bash
+        venv\Scripts\activate
+        ```
 
-```
+    - On Unix or MacOS:
 
-cd /path/to/react
+        ```bash
+        source venv/bin/activate
+        ```
 
+7. Install the Python dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ````
+
+8. Navigate to the electron app:
+
+    ```bash
+    cd ./frontend
+    ```
+
+## Running the App
+
+To start the application, run the following command:
+
+```bash
 npm start
-
-```
-
-
- 
-
-Or, you can run both the Flask and React apps at the same time with one command:
-
-
- 
-
-```
-
-npm run dev
-
-```
 
 
  
