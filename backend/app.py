@@ -14,12 +14,7 @@ from bs4 import BeautifulSoup
 app = Flask(__name__)
 CORS(app)
 
-
-# dummy function for now
 def convert_to_safe_date(file_path):
-    # changes = ['<data 1>', '<data 2>']
-    # meta_data = ['<meta 1>', '<meta 2>']
-    # return changes, meta_data
     temp_directory = 'temp'
     os.mkdir(temp_directory)
     doc_zip = zipfile.ZipFile(file_path)
